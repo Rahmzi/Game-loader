@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Downloads</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 30px;
+      text-align: center;
+    }
+    .game-box {
+      background: black;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Game Downloads</h1>
+
+  <div class="game-box">
+    <h2>Game Title</h2>
+    <p>This is a fun and exciting game you can download!</p>
+    <a href="https://your-download-link.com" class="download-btn" download>Download Now</a>
+  </div>
+
+  <p style="margin-top: 40px; font-size: 14px;">Replace the link and title with your own info.</p>
+</body>
+</html>
